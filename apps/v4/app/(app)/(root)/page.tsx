@@ -50,6 +50,13 @@ export default function IndexPage() {
   return (
     <div className="flex flex-1 flex-col">
       <PageHeader>
+        <Image
+          src="/images/gc-logo.png"
+          alt="Logo"
+          width={128}
+          height={128}
+          className="mb-4"
+        />
         <Announcement />
         <PageHeaderHeading className="max-w-4xl">{title}</PageHeaderHeading>
         <PageHeaderDescription>{description}</PageHeaderDescription>
