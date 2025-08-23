@@ -5,7 +5,8 @@ export const runtime = "edge";
 export const maxDuration = 30;
 
 // PlanB API configuration
-const PLANB_API_BASE_URL = process.env["PLANB_API_BASE_URL"] || "http://localhost:5169";
+// const PLANB_API_BASE_URL = process.env["PLANB_API_BASE_URL"] || "http://localhost:5170";
+const PLANB_API_BASE_URL = process.env["PLANB_API_BASE_URL"] || "https://planb-api-euw-hhdwgdb3cfeqbzdg.westeurope-01.azurewebsites.net";
 
 // Interface definitions for PlanB API
 interface ChatMessage {
